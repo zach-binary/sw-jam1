@@ -21,6 +21,12 @@
 			margin: auto;
 			margin-top: 30px;
 		}
+
+		.content {
+			margin: auto;
+			width: 640px;
+			margin-top: 560px;
+		}
 	</style>
 
 	<script type="text/javascript">
@@ -38,5 +44,17 @@
 </head>
 <body>
 	<canvas id="canvas"></canvas>
+	<div class='content'>
+		<p>WASD - To Move</p>
+		<p>E - To Punch</p>
+		<p>R - To Kick</p>
+		<p>SPACE - Turbo</p>
+		<p>
+			<img src='media/sprites/crown.png'/> x 3 = <b>triple crown</b> = <b>rampage mode</b> (1 hit kill)
+		</p>
+		<p>
+			<img src='media/sprites/horsemen.png' /> + <img src='media/sprites/candy.png' /> x 3 = <b>triple treat</b> for a big score bonus!
+		</p>
+	</div>
 </body>
 </html>
